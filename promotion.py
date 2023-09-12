@@ -9,7 +9,7 @@ if inicio == '1':
     else:
         print(f'Você está levando {quant} água(s) pelo valor de R${parcial}')
 elif inicio == '2':
-    quant = int(input('Quantos açúcares você deseja comprar? '))
+    quant = int(input('Quantos açúcar você deseja comprar? '))
     parcial = 5.0 * quant
     if quant >= 10:
         total = parcial - (parcial * 0.1)
